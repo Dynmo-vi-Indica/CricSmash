@@ -1,0 +1,71 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricSmash | Cricket Match Centre</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <h1>CRIC<span>SMASH</span></h1>
+    <p>YOUR GAME. YOUR STATS. YOUR STORY.</p>
+</header>
+
+<main class="container">
+
+    <!-- PLAYER PROFILE -->
+    <section class="card" id="profileSection">
+        <h2>🏏 Create Player Profile</h2>
+
+        <form id="profileForm">
+            <div class="form-grid">
+                <label>Full Name
+                    <input id="playerName" type="text" required placeholder="Enter your name">
+                </label>
+
+                <label>Phone Number
+                    <input id="phone" type="tel" required placeholder="Enter phone number">
+                </label>
+
+                <label>Age
+                    <input id="age" type="number" min="5" max="100" required>
+                </label>
+
+                <label>City
+                    <input id="city" type="text" required>
+                </label>
+
+                <label>State
+                    <input id="state" type="text" required>
+                </label>
+
+                <label>Cricket Role
+                    <select id="role" required>
+                        <option value="">Choose role</option>
+                        <option>Batter</option>
+                        <option>Bowler</option>
+                        <option>All-rounder</option>
+                        <option>Wicketkeeper</option>
+                    </select>
+                </label>
+
+                <label>Batting Style
+                    <select id="battingStyle" required>
+                        <option value="">Choose style</option>
+                        <option>Right-handed</option>
+                        <option>Left-handed</option>
+                    </select>
+                </label>
+
+                <label>Bowling Type
+                    <select id="bowlingType">
+                        <option value="Does not bowl">Does not bowl</option>
+                        <option>Right-arm fast</option>
+                        <option>Left-arm fast</option>
+                        <option>Right-arm spin</option>
+                        <option>Left-arm spin</option>
+                        <option>Medium pace</option>
+```
